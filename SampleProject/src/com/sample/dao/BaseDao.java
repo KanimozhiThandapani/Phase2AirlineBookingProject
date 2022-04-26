@@ -1,9 +1,0 @@
-package com.sample.dao;
-
-import com.sample.pojo.User;
-
-public interface BaseDao {
- public boolean login(String username, String password);
-
- public String register(User user);
-}
