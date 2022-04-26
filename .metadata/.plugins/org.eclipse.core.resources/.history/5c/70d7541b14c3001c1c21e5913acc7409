@@ -1,0 +1,13 @@
+package com.sample.pojo;
+
+public class Flight {
+	private String flightid;
+	private String flightcode;
+	private String source;
+	private String destination;
+	private String airline;
+	private String starttime;
+	private String reachtime;
+	private String price;
+
+}

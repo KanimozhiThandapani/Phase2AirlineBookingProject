@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>The Booked Flight Details:</title>
+</head>
+<body>
+
+<div align="center">
+		<form action="paymentPage" method="get">
+
+   <table align="center" border="1">
+   <tr bgcolor="thistle" >
+          <th><b>Flight Code</b></th>
+          <th><b>Source</b></th>
+          <th><b>Destination</b></th>
+          <th><b>AirlineName</b></th>
+          <th><b>StartTime</b></th>
+          <th><b>ReachTime</b></th>
+          <th><b>Price</b></th>
+          <th><b>Confirm Booking</b></th>
+    </tr>
+         
+   <tr>
+                    <td>Indigo-629</td>
+					<td>Chennai</td>
+					<td>Bengaluru()</td>
+					<td>Indigo-629</td>
+					<td>21:25:00</td>
+					<td>22:20:00</td>
+					<td>3,208</td>
+	</tr>
+				
+	</table>			
+					<input type="submit" value="Confirm Payment">
+				
+   
+   </form>
+   </div>
+</body>
+</html>

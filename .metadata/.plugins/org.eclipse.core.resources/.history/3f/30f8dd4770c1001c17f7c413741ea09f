@@ -1,0 +1,16 @@
+package com.sample.controller;
+
+import javax.servlet.http.HttpServlet;
+
+public class SearchFormController extends HttpServlet {
+	
+	/**
+     * @see HttpServlet#HttpServlet()
+     */
+    public RegistrationController() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+
+}

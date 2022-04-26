@@ -1,0 +1,8 @@
+package com.servlet;
+
+
+
+
+public class GenericDemoServlet extends GenericServlet {
+
+}

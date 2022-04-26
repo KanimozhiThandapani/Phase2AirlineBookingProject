@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://java.sun.com/xml/ns/javaee"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+ version="3.0">
+ <servlet>
+  <servlet-name>LoginController</servlet-name>
+  <servlet-class>com.sample.controller.LoginController</servlet-class>
+  <load-on-startup>1</load-on-startup>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoginController</servlet-name>
+  <url-pattern>/login</url-pattern>
+ </servlet-mapping>
+ <servlet>
+  <servlet-name>UserRegistration</servlet-name>
+  <servlet-class>com.sample.controller.RegistrationController</servlet-class>
+  <load-on-startup>1</load-on-startup>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>UserRegistration</servlet-name>
+  <url-pattern>/userRegistration</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>SearchForm</servlet-name>
+  <url-pattern>/flightDetails</url-pattern>
+ </servlet-mapping>
+ <servlet>
+  <servlet-name>SearchForm</servlet-name>
+  <servlet-class>com.sample.controller.SearchFormController</servlet-class>
+  <load-on-startup>1</load-on-startup>
+ </servlet>
+ 
+ <servlet-mapping>
+  <servlet-name>RegisterPage</servlet-name>
+  <url-pattern>/registerPage</url-pattern>
+ </servlet-mapping>
+ <servlet>
+  <servlet-name>RegisterPage</servlet-name>
+  <servlet-class>com.sample.controller.RegistrationPageController</servlet-class>
+  <load-on-startup>1</load-on-startup>
+ </servlet>
+ 
+ <welcome-file-list>
+  <welcome-file>homepage.jsp</welcome-file>
+ </welcome-file-list>
+</web-app>

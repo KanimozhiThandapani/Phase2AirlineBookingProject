@@ -1,0 +1,5 @@
+package com.sample.dao.copy;
+
+public class BaseDao {
+
+}

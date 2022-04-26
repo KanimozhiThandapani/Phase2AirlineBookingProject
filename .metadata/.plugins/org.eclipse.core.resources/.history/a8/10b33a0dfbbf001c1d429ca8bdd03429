@@ -1,0 +1,5 @@
+package com.sample.pojo.copy;
+
+public class User {
+
+}

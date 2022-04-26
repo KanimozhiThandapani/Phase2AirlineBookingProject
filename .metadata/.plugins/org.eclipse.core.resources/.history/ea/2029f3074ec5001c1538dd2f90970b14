@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Available Flights</title>
+</head>
+<body>
+
+<div align="center">
+		<form action="registerPage" method="get">
+			<table align="center" border="1">
+				<tr>
+					<td colspan="2" align="center"><b>Available Flights</b></td>
+				</tr>
+				<tr>
+					<td>Indigo</td>
+					<td>New Delhi(02:25)</td>
+					<td>Bengaluru(5:15)</td>
+					<td>8,159</td>
+					<td>
+					  <button name="button" value="OK" type="button" onclick="hello()">Click Here</button> 
+					</td> 
+				</tr>
+				<tr>
+					<td>SpiceJet</td>
+					<td>New Delhi(02:25)</td>
+					<td>Bengaluru(5:15)</td>
+					<td>8,159</td>
+					<td>
+					  <button name="button" value="OK" type="button" onclick="hello()">Click Here</button> 
+					</td> 
+				</tr>
+				<tr>
+					<td>AirAsia</td>
+					<td>New Delhi(02:25)</td>
+					<td>Bengaluru(5:15)</td>
+					<td>8,159</td>
+					<td>
+					  <button name="button" value="OK" type="button" onclick="hello()">Click Here</button> 
+					</td> 
+				</tr>
+				
+				<tr>
+					<td align="center"><input type="submit" value="Confirm"></td>
+					<td align="center"><input type="reset" name="Reset"></td>
+				</tr>
+			</table>
+			
+			</form>
+		
+	</div>
+
+
+</body>
+</html>

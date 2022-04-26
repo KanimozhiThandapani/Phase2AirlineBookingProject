@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  text-align: center;
+}
+
+div {
+  border-radius: 5px;
+  background-color: thistle;
+  padding: 20px;
+}
+
+h3 {
+  text-align: center; 
+  font-size: 3em;
+  color: white;
+}
+</style>
+<body style="background-color:purple;">
+
+
+<h3>Welcome To FlyAway!!</h3>
+
+<div>
+  <form action="flightDetails" method="get">
+
+    <label for="source" style="font-size: 25px"><strong>Source* :</strong></label>
+    <select id="source" name="source">
+      <option value="bengaluru">Bengaluru</option>
+      <option value="chennai">Chennai</option>
+      <option value="kochi">Kochi</option>
+      <option value="mumbai">Mumbai</option>
+    </select><br>
+    
+    <label for="destination" style="font-size: 25px"><strong>Destination* :</strong></label>
+    <select id="destination" name="destination">
+      <option value="bangkok">Bangkok</option>
+      <option value="bengaluru">Bengaluru</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="newDelhi">New Delhi</option>
+    </select><br>
+    
+    <label for="dateOfTravel" style="font-size: 25px"><strong>Date Of Travel* :</strong></label>
+    <input type="date" id="dot" name="dot" style="height: 30px;" required><br><br>
+
+    <label for="numberOfPersons" style="font-size: 25px"><strong>Number Of Persons* :</strong></label>
+    <input type="number" name="numberOfPersons" style="height: 30px;" required><br><br>
+  
+    <input type="submit" value="Submit" style="font-size: 25px">
+  </form>
+</div>
+
+</body>
+</html>
+
+

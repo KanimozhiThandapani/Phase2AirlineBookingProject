@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome To FlyAway!!</title>
+</head>
+<body>
+
+<div align="center">
+		<form action="flightDetails" method="get">
+           
+           <label for="cars">Choose a car:</label>
+           <select name="cars" id="cars">
+           <option value="volvo">Volvo</option>
+           <option value="saab">Saab</option>
+           <option value="mercedes">Mercedes</option>
+           <option value="audi">Audi</option>
+           </select>
+           
+			<table align="center" border="1">
+				<tr>
+					<td colspan="2" align="center"><b>Search Flights</b></td>
+				</tr>
+				<tr>
+					<td>Source* :</td>
+					<td><input type="text" name="source" required></td>
+				</tr>
+				<tr>
+					<td>Destination* :</td>
+					<td><input type="text" name="destination" required></td>
+				</tr>
+				
+				
+				<tr>
+					<td>Date of Travel* :</td>
+					<td><input type="date" name="dot" required></td>
+				</tr>
+				<tr>
+					<td>Number Of persons :</td>
+					<td><input type="number" name="numberOfPersons"></td>
+				</tr>
+				
+				<tr>
+					<td align="center"><input type="submit" value="Search Flights"></td>
+					<td align="center"><input type="reset" name="Reset Form"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>

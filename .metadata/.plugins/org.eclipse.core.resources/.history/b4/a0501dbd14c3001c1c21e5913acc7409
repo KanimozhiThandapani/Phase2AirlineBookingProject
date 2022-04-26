@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="com.sample.pojo.Flight" table="flight_details">
+  <id name="flightid">
+   <column name="FlightID" length="20" />
+  </id>
+  <property name="flightcode" column="Password" length="20" />
+  <property name="source" column="FirstName" length="20" />
+  <property name="destination" column="LastName" length="20" />
+  <property name="airline" column="DOB" />
+  <property name="starttime" column="MobileNumber" length="10" />
+  <property name="reachtime" column="EmailID" length="25" />
+  <property name="price" column="EmailID" length="25" />
+ </class>
+</hibernate-mapping>

@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Successfull Payment!!Your Booking is confirmed!</title>
+</head>
+<body>
+
+<div align="center">
+		
+<title>Successfull Payment!!Your Booking is confirmed!</title>
+   <table align="center" border="1">
+   <tr>
+					<td>SpiceJet</td>
+					<td>New Delhi(02:25)</td>
+					<td>Bengaluru(5:15)</td>
+					<td>8,159</td>
+				</tr>
+				
+				
+   </table>
+   
+   </div>
+
+</body>
+</html>

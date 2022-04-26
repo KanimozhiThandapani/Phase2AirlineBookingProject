@@ -1,0 +1,12 @@
+package com.sample.pojo;
+
+public class Flight {
+	private String flightid;
+	private String flightid;
+	private String flightid;
+	private String flightid;
+	private String flightid;
+	private String flightid;
+	private String flightid;
+
+}
